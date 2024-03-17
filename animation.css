@@ -1,0 +1,44 @@
+.layer1 {
+  animation: zoom-room 4s ease;
+}
+.layer2 {
+  animation: zoom-chair 4s ease;
+}
+.layer3 .hero-container {
+  animation: hero 2s ease-out;
+}
+
+@keyframes zoom-room {
+  0% {
+    transform-origin: 25% 65%;
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes zoom-chair {
+  0% {
+    transform-origin: -15% 65%;
+    transform: scale(2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes hero {
+  0% {
+    opacity: 0;
+    margin-top: 500px;
+  }
+  50% {
+    opacity: 0;
+    margin-top: 400px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
