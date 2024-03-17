@@ -211,3 +211,12 @@ body {
 .category-desk {
   font-size: 0.9em;
 }
+
+.back-btn {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: transparent;
+  border: 0;
+  font-size: 1.1em;
+  cursor: pointer;
+}

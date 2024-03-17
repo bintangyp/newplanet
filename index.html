@@ -120,12 +120,17 @@
             </div>
           </div>
         </div>
+        <button onclick="sembunyi()" class="back-btn"><-- back</button>
       </div>
     </div>
     <script>
       function tampil() {
         const category = document.getElementById("category");
         category.style.marginTop = "0";
+      }
+      function sembunyi() {
+        const category = document.getElementById("category");
+        category.style.marginTop = "100vh";
       }
     </script>
   </body>
